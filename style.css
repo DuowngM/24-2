@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    width: 100%;
+}
+
+.img {
+    width: 250px;
+    height: 292.84;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 20px;
+}
+
+.span {
+    background: linear-gradient(0deg, rgba(104, 113, 120, 1) 0%, rgba(83, 90, 95, 1) 100%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1.8rem;
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 4rem;
+}
+
+.element {
+    max-width: 380px;
+    height: 528px;
+    margin: 2rem 3rem;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(104, 113, 120, 1) 0%, rgba(83, 90, 95, 1) 100%);
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+.element img {
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.element span {
+    font-size: 1.8rem;
+}
+
+.buyandsell {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.buy {
+    background-color: #9EDD99;
+    width: 62.66px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    right: 20px;
+    padding: 15px 20px;
+
+}
+
+.sell {
+    width: 62.66px;
+    height: 50px;
+    background-color: #DD9999;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    position: relative;
+    left: 20px;
+}
+
+.buyandsell .buy:hover {
+    cursor: pointer;
+    background-color: rgb(204, 252, 200);
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.element p{
+    font-size: 24px;
+}
+.element span{
+    font-size: 20px;
+}
+.ft {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 50px;
+}
